@@ -8,7 +8,7 @@ import slide4 from "../../assets/Slidev3_05.png"
 
 const CarouselTest = () => {
   return (
-    <Carousel showThumbs={false}>
+    <Carousel showThumbs={false} showStatus={false}>
                 <div>
                     <img src={slide1} />
                     {/* <p className="legend">Legend 1</p> */}
